@@ -8,4 +8,4 @@ for i in range(size):
     if myList[i] % 2 == 0:
         count += 1
 
-print("Total count of even numbers in list :", count)
+print("\nTotal count of even numbers in list :", count)
