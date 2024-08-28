@@ -15,7 +15,7 @@ side2 = float(input("Enter length of side 2 of trapezoid : "))
 height1 = float(input("Enter height of trapezoid : "))
 
 base = float(input("\nEnter base of parallelogram : "))
-height2= float(input("Enter height of parallelogram : "))
+height2 = float(input("Enter height of parallelogram : "))
 
 radius = float(input("\nEnter radius of cylinder : "))
 height3 = float(input("Enter height of cylinder : "))
