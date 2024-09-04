@@ -1,0 +1,1 @@
+{'Name': 'Muhammad Umar', 'Age': '20', 'Degree': 'AI'}
