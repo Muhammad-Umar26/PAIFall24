@@ -1,0 +1,5 @@
+Name: Muhammad Umar
+CNIC: 42101-8165162-5
+Age: 20
+Salary: 50000
+Contact Number: 0311-1017843
