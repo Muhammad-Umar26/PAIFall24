@@ -1,7 +1,7 @@
 question = input("Enter any sentence : ")
 
 if question[-1] == '?':
-    f = open("file.txt", 'w')
+    f = open("question.txt", 'w')
     
     f.write(question)
 
