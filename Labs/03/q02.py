@@ -1,12 +1,12 @@
 try:
-    f = open("file.txt")
+    f = open("q02.txt")
     content = f.read()
     f.close()
 
-    f = open("file.txt", 'w')
-    content = content.replace("Artficial Intelligence", "Computer Science")
+    f = open("q02.txt", 'w')
+    content = content.replace("Artificial Intelligence", "Computer Science")
     f.write(content)
     f.close()
 
-except FileNotFoundError:
-    print("Error: The file 'file.txt' was not found.")
+except Exception as e:
+    print(str(e))
