@@ -1,5 +1,5 @@
 try:
-    f = open("file.txt")
+    f = open("q01.txt")
     content = f.read()
 
     characterCount = len(content)
@@ -9,5 +9,5 @@ try:
 
     f.close()
 
-except FileNotFoundError:
-    print("Error: The file 'file.txt' was not found.")
+except Exception as e:
+    print(str(e))
